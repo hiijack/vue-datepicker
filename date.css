@@ -1,0 +1,175 @@
+.date-picker {
+    position: absolute;
+    height: auto;
+}
+
+.date-picker-box {
+    background-color: #FFF;
+    font-family: Roboto, sans-serif;
+    border: 1px;
+}
+
+.date-panel {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    color: #FFF;
+    height: auto;
+    padding: 20px;
+    float: none;
+    background-color: #0097A7;
+}
+
+.year {
+    position: relative;
+    overflow: hidden;
+    height: 16px;
+    margin: 0px 0px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    opacity: 0.7;
+}
+
+.date-box {
+    width: 100%;
+    height: 284px;
+    float: none;
+    overflow: hidden;
+}
+
+.date-box-head {
+    box-sizing: border-box;
+    background-color: inherit;
+    height: 56px;
+    width: 100%;
+    padding: 0px;
+    position: relative;
+}
+
+.month-year {
+    position: absolute;
+    overflow: hidden;
+    height: 14px;
+    top: 17px;
+    line-height: 14px;
+    font-size: 14px;
+    width: 100%;
+    font-weight: 500;
+    text-align: center;
+}
+
+.month-button {
+    border: 10px none;
+    background: none repeat scroll 0% 0% transparent;
+    box-sizing: border-box;
+    display: inline-block;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    -moz-font-feature-settings: inherit;
+    -moz-font-language-override: inherit;
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    outline: medium none;
+    position: relative;
+    padding: 12px;
+    width: 48px;
+    height: 48px;
+    font-size: 0px;
+    -moz-appearance: button;
+    cursor: pointer;
+}
+
+.last-month-pointer {
+    position: relative;
+    float: left;
+}
+
+.next-month-pointer {
+    position: relative;
+    float: right;
+}
+
+.week-list {
+    padding: 0px 14px;
+    line-height: 12px;
+    opacity: 0.5;
+    height: 12px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.week-list li {
+    list-style: none outside none;
+    float: left;
+    width: 37px;
+    text-align: center;
+    margin: 0px 2px;
+}
+
+.date-box-body {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.aa {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.bb {
+    line-height: 32px;
+    text-align: center;
+    padding: 16px 14px 0px;
+}
+
+.date-box-body button {
+    border: 10px none;
+    background: none repeat scroll 0% 0% transparent;
+    box-sizing: border-box;
+    display: inline-block;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    -moz-font-feature-settings: inherit;
+    -moz-font-language-override: inherit;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    outline: medium none;
+    position: relative;
+    float: left;
+    width: 41px;
+    padding: 4px 2px;
+    -moz-appearance: button;
+}
+
+.date-box-body button span {
+    position: relative;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.today {
+    position: absolute;
+    height: 34px;
+    width: 34px;
+    opacity: 1;
+    border-radius: 50%;
+    background-color: #0097A7;
+}
+
+.date-box-body .today span {
+    color: #FFF;
+}
+
